@@ -1,0 +1,20 @@
+name: scrap
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - ipykernel
+  - pip
+  - pandas
+  - numpy
+  - requests
+  - lxml
+  - html5lib
+  - json5
+  - pip:
+    - requests-html
+    - lxml_html_clean
+    - beautifulsoup4
+    - openpyxl
+    - tqdm
